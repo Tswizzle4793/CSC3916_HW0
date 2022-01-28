@@ -1,0 +1,62 @@
+Request Headers
+
+User-Agent: PostmanRuntime/7.29.0
+This header contains information about who and what is sending the request.
+
+Accept: */*
+Information on what kind of MIME types the client can understand */* means all types.
+
+Cache-Control: no-cache
+This controls the cache policy, no-cache means the client has to validate with the origin server when trying to use cache data. The server can have a different cache policy than the client.
+
+Postman-Token: db8e1875-ef10-4c69-98a1-0e406fb40221
+This is a unique token that postman sends with each request. From what I could find these are used to distinguish between requests and validate where a request is coming from.
+
+Host: www.googleapis.com
+This specifies the name of the host where the requests are being sent.
+
+Accept-Encoding: gzip, deflate, br
+This is a list of what encodings the sender can understand. The server will pick one and send data back using that encoding.
+
+Connection: keep-alive
+This tells the server to keep the connection open allowing for the client to send follow up requests without having to open up a new connection.
+
+
+
+Response Headers
+
+Content-Type: application/json; charset=UTF-8
+This indicates the original content type of the data sent before it was encoded.
+
+Vary: Origin
+Vary: X-Origin
+Vary: Referer
+These headers describe the parts of the request message aside from the method and URL that influenced the content of the response it occurs in.
+
+Content-Encoding: gzip
+This describes the chosen encoding the data has been encoded with.
+
+Date: Fri, 28 Jan 2022 16:39:31 GMT
+This is the date and time the response was sent at.
+
+Server: ESF
+This describes the software used by the server that sent the response.
+
+Cache-Control: private
+This indicates that the response can only be stored in a private cache.
+
+X-XSS-Protection: 0
+This stops pages from loading when they detect reflected cross-site scripting
+
+X-Frame-Options: SAMEORIGIN
+This header indicates if a browser is allowed to render the page in a frame. Sameorigin means the page can only be displayed in a frame on the same origin as the main page.
+
+X-Content-Type-Options: nosniff
+This header is used to block MIME type sniffing by saying that the MIME types are deliberately configured.
+
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+This header allows a server to indicate that another network location can be treated as authoritative for that origin when making future requests. This is followed by identifying flags.
+
+Transfer-Encoding: chunked
+This header specifies the form of encoding used to transfer the payload body to the user. The chunked option sends data in a series of chunks until all of the data has been sent.
+

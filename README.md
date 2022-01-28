@@ -10,4 +10,4 @@ git add . <br/>
 git commit -m "first commit" <br/>
 git push origin main <br/>
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/3701afbe3191ae18ab24)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://app.getpostman.com/run-collection/5a342cf1ab34e8344bfc?action=collection%2Fimport#?env%5BHwk0%5D=W3sia2V5IjoiYm9va190aXRsZSIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImFueSIsInNlc3Npb25WYWx1ZSI6IlR1cmluZyIsInNlc3Npb25JbmRleCI6MH0seyJrZXkiOiJpZCIsInZhbHVlIjoiIiwiZW5hYmxlZCI6dHJ1ZSwidHlwZSI6ImFueSIsInNlc3Npb25WYWx1ZSI6IkxGUTdEd0FBUUJBSiIsInNlc3Npb25JbmRleCI6MX1d)
